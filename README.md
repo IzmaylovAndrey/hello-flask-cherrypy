@@ -5,6 +5,18 @@ Flask application that's served by CherryPy as WSGI server
 
 By default server runs on 0.0.0.0:5000
 
+## Run server:
+
+- Flask development server:
+```bash
+python run.py
+```
+
+- CherryPy WSGI server:
+```bash
+python server.py
+```
+
 ## Requirements
 - Python 3.5
 - Flask 0.12
